@@ -1,1 +1,80 @@
 
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 4;
+            int c = 2;
+            int result = a / b * c + a % b;
+            int s = a - b;
+            double f = a / b;
+            int g = a / b;
+            int h = a * c;
+            Console.WriteLine(result);
+            Console.WriteLine(s);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+
+    
+
+            double C = 12.5;
+            double F = C * 9 / 5 + 32;
+            Console.WriteLine(F);
+
+            int k = 7;
+            int l = 4;
+            int j = 3;
+            int m = (k + l) / j;
+            int n = (k + l) % j;
+            Console.WriteLine($"quotient: {m}");
+            Console.WriteLine($"remainder: {n}");
+            int max = 1563;
+            int min = 23;
+            int what = max + 3;
+            int what1 = min + 2;
+            Console.WriteLine($"An example of overflow: {what1}");
+            Console.WriteLine($"An example of overflow: {what}");
+            Console.WriteLine($"The range of integers is{min} to {max}");
+            double max1 = 55.85;
+            double min1 = 1.5;
+            Console.WriteLine($"The range of double is {min1} to {max1}");
+            decimal min2 = decimal.MinValue;
+            decimal max2 = decimal.MaxValue;
+            Console.WriteLine($"The range of the decimal type is {min2} to {max2}");
+            double v = 1.0;
+            double x = 3.0;
+            Console.WriteLine(v / x);
+            decimal p = 1.0M;
+            decimal o = 3.0M;
+            Console.WriteLine(p / o);
+
+            double radius = 2.50;
+            double PI = 3.14;
+            double A = radius * radius * PI;
+            Console.WriteLine(A);
+
+            int z = 6;
+            int i = 4;
+            int sum = z + i;
+            int sub = i - z;
+            int mult = z * i;
+            double realDiv = z /(double)i;
+            Console.WriteLine(sum);
+            Console.WriteLine(sub);
+            Console.WriteLine(mult);
+            Console.WriteLine(realDiv);
+
+        
+
+
+           
+
+        }
+    }
+}
