@@ -1,0 +1,48 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            while  (i < 5)
+            {
+                Console.WriteLine(i);
+                i++;
+
+            }
+            int c = 0;
+            do
+            {
+                Console.WriteLine(c);
+                c++;
+            }
+            while (c < 5);
+
+            for (int a = 0; a < 5; a++)
+            {
+                Console.WriteLine(a);
+            }
+            for (int d = 0; d <= 10; d = d + 2)
+            {
+                Console.WriteLine(d);
+            }
+            for (int e = 1; e <= 2; ++e)
+            {
+                Console.WriteLine("Outer: " + e);
+
+                for (int j = 1; j <= 3; j++)
+                {
+                    Console.WriteLine(" Inner: " + j);
+                }
+            }
+            string[] cars = { "Volvo", "BMV", "Ford", "Mazda" };
+            foreach (string k in cars)
+            {
+                Console.WriteLine(k);
+            }
+        }
+    }
+}
